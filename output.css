@@ -556,6 +556,14 @@ video {
   --tw-contain-style:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
+.inset-0{
+  inset: 0px;
+}
+
 .flex{
   display: flex;
 }
@@ -599,6 +607,11 @@ video {
 .border-gray-400{
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .object-cover{
