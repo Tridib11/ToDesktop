@@ -556,19 +556,22 @@ video {
   --tw-contain-style:  ;
 }
 
-.font-tridib-font{
-  font-family: Poppins, san-serif;
+.flex{
+  display: flex;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.items-center{
+  align-items: center;
 }
 
-.font-bold{
-  font-weight: 700;
+.justify-between{
+  justify-content: space-between;
 }
 
-.underline{
-  text-decoration-line: underline;
+.p-4{
+  padding: 1rem;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
