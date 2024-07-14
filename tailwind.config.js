@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'primary'
+        'primary':'#ee0181',
+        'tridib':'#01ee91'
+      },
+      fontFamily:{
+        'tridib-font':['Poppins','san-serif']
       }
     },
   },
