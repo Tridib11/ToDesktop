@@ -560,6 +560,14 @@ video {
   display: flex;
 }
 
+.max-h-12{
+  max-height: 3rem;
+}
+
+.max-w-12{
+  max-width: 3rem;
+}
+
 .items-center{
   align-items: center;
 }
@@ -568,6 +576,37 @@ video {
   justify-content: space-between;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-3{
   padding: 0.75rem;
+}
+
+.p-2{
+  padding: 0.5rem;
+}
+
+.font-display{
+  font-family: Poppins, san-serif;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }

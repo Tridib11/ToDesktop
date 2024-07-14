@@ -8,7 +8,8 @@ module.exports = {
         'tridib':'#01ee91'
       },
       fontFamily:{
-        'tridib-font':['Poppins','san-serif']
+        'display':['Poppins','san-serif'],
+        'body':['Inter','san-serif']
       }
     },
   },
